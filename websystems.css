@@ -1,0 +1,1061 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    padding:0;
+    color:rgb(174, 165, 165);
+    box-sizing: border-box;
+}
+
+body {
+    background:black;
+}
+
+#title {
+    text-align: center;
+    padding-top:0;
+    padding-bottom:5rem;
+    font-size:3rem;
+    background-image:url(book.gif);
+    /* https://gifer.com/en/81mz */
+}
+
+.contact {
+        border-radius: 15rem;
+        margin:0.5rem;
+        padding:1rem 2rem;
+        background-color: rgb(86, 89, 122);
+        font-size: 100%;
+
+}
+
+header {
+    display:flex;
+    align-items:center;
+    font-weight:bold;
+    background-image:url(book.gif);
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right:5%;
+}
+
+#nav-bar {
+    justify-content: left;
+}
+
+#nav-bar li { 
+    list-style-type:none;
+    display: inline;
+    padding:0.5rem 1rem;
+    padding-bottom:0.8rem;
+    border-radius: 3rem;
+}
+
+#Homeeex {
+    text-align: left;
+    font-size: 105%;
+    width:100%;
+    padding:1rem;
+}
+#nav-bar a {
+    text-decoration: none;
+    color:rgb(11, 61, 115);
+}
+
+#nav-bar li:hover {
+    border:1px solid rgb(177, 73, 73);
+    background-color: rgba(21, 30, 98, 0.5);
+    animation: rainbow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes rainbow {
+    0%{border-color: red;}
+    20%{border-color: rgb(0, 255, 136);}
+    40%{border-color: rgb(0, 72, 255);}
+    60%{border-color: rgb(200, 0, 255);} 
+    80%{border-color: rgb(29, 193, 37);}
+    100%{border-color: rgb(0, 183, 255);} 
+}
+
+#header {
+    width:100%;
+    padding:5px;
+    background-color: rgb(55, 46, 30);
+}
+
+#home {
+    width:100%;
+    padding:1rem;
+}
+
+h3 {
+    font-size:165%;
+}
+
+#subjects {
+    margin-left:2%;
+    font-size: 1.2rem;
+}
+
+#subjects li a:hover {
+    background:rgba(117, 148, 232, 0.3);
+}
+
+#dorito {
+    margin-right:5%;
+    width:14rem;
+    height:14rem;    
+    margin-top: 5em;
+    float:right;
+}
+
+
+#dorito:hover {
+    animation: rotateCool;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateCool {
+    
+    100%{transform: rotate(360deg);}
+    0%{background-color: red;}
+    20%{background-color: rgb(0, 255, 136);}
+    40%{background-color: rgb(0, 72, 255);}
+    60%{background-color: rgb(200, 0, 255);} 
+    80%{background-color: rgb(29, 193, 37);}
+    100%{background-color: rgb(0, 183, 255);} 
+}
+
+
+#hint {
+    float: right;
+    margin-right:7%;
+}
+#home {
+    width:100%;
+    height:100%;
+}
+#home:hover {
+    animation: hintAnimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+} 
+@keyframes hintAnimation {
+    0%{background: rgb(1, 1, 1);}
+    40%{background: rgb(1, 1, 1);}
+    99%{background: rgb(174, 165, 165);}
+    100%{background: rgb(0, 0, 0);}
+}
+
+#secret-text {
+    color:black;
+    font-weight:bold;
+}
+
+#secret {
+    font-size: 1.3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-wrap: break-word;
+}
+
+#msg {
+    color:black;
+    font-size: 2rem;
+}
+
+#topic-box {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    word-wrap: break-word;
+}
+#hover {
+    font-size:1rem;
+    color:aquamarine
+}
+.topics {
+    border: solid 0.01rem rgb(174, 165, 165);
+    margin:0.5rem;
+    padding:2rem 1rem;
+    width:33%;
+    margin-bottom: 3rem;
+}
+
+table {
+    word-wrap: break-word;
+}
+.topics:hover {
+    background:rgb(174, 165, 165, 0.3);
+    animation: hide;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+
+
+.special {
+    color:black;
+}
+
+.sub {
+    font-size:2rem;
+}
+
+
+.container {
+    display:flex;
+    justify-content: center;
+}
+
+.flex {
+    width:100%;
+    border:solid 1px rgba(122, 122, 112, 0.3);
+    padding:1%;
+    background-color: rgba(44, 44, 37, 0.3);
+    margin-bottom: 1%;
+    position:absolute;
+
+}
+
+.flex-2 {
+    text-align: right;
+    border-left: rgba(44, 44, 37, 0.3);
+    border-right:rgba(122, 122, 112, 0.3);
+}
+
+.flex-1 {
+    text-align:left;
+    border-right: rgba(44, 44, 37, 0.3);
+    border-left:rgba(44, 44, 37, 0.3);
+}
+
+/* PAST HISTORYPAST HISTORYPAST HISTORYPAST HISTORYPAST HISTORYPAST HISTORY */
+
+
+#title2 {
+    text-align: center;
+    padding-top:0;
+    padding-bottom:5rem;
+    font-size:3rem;
+    /* https://gifer.com/en/Ozb */
+    color:rgb(27, 112, 128);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#background2 {
+    background-image:url(starr.gif);
+    background-size: cover;
+    /* https://wallpapersafari.com/space-wallpaper-gif/ */
+}
+
+
+
+
+
+#header2 {
+    display:flex;
+    align-items:center;
+    font-weight:bold;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right:5%;
+    background-image:url(starr.gif);
+    background-size: cover;
+
+}
+
+#nav-bar {
+    justify-content: left;
+}
+
+#header3 {
+    width:100%;
+    padding:0.5rem;
+    background-color: rgb(14, 19, 61);
+}
+
+
+.topic-name {
+    padding-bottom:0.5rem;
+}
+.contained {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom:1rem;
+}
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.s {
+    padding:1rem 2rem;
+}
+
+.HSC {
+    background: rgb(61, 61, 126);
+    width:100%;
+}
+
+.Work {
+    background: rgb(131, 57, 57);
+    width:100%;
+}
+
+
+#duck {
+    width:30vw;
+    height:30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.flexx {
+    width:100%;
+    border:solid 1px rgba(122, 122, 112, 0.3);
+    padding:1%;
+    background-color: rgba(44, 44, 37, 0.3);
+    margin-bottom: 1%;
+    margin-top:3%;
+    position:absolute;
+}
+
+.flex-4 {
+    text-align: right;
+    border-left: rgba(44, 44, 37, 0.3);
+    border-right:rgba(122, 122, 112, 0.3);
+    width:100%;
+}
+
+.flex-3 {
+    text-align:left;
+    border-right: rgba(44, 44, 37, 0.3);
+    border-left:rgba(44, 44, 37, 0.3);
+    width:100%;
+    float:left;
+}
+
+.Htext{
+    font-size:1.2rem;
+}
+
+#list {
+    padding:1rem 2rem;
+}
+
+#list li {
+    color:rgb(17, 17, 59);
+}
+
+#pen {
+    width:20%;
+    height:30%;
+    float:right;
+    margin-top:-11rem;
+}
+
+
+/*Future PlanFuture PlanFuture PlanFuture PlanFuture PlanFuture PlanFuture Plan*/
+
+#title3 {
+    text-align: center;
+    padding-top:0;
+    padding-bottom:5rem;
+    font-size:3rem;
+    /* https://gifer.com/en/Ozb */
+    color:rgb(27, 112, 128);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#background33 {
+    background-image:url(starrr.gif);
+    background-size: cover;
+    /* https://wallpapersafari.com/space-wallpaper-gif/ */
+}
+
+#header22 {
+    display:flex;
+    align-items:center;
+    font-weight:bold;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right:5%;
+    background-image:url(starrr.gif);
+    background-size: cover;
+
+}
+
+
+
+#nav-barr li { 
+    list-style-type:none;
+    display: inline;
+    padding:0.5rem 1rem;
+    padding-bottom:0.8rem;
+    border-radius: 3rem;
+}
+
+
+#header32 {
+    width:100%;
+    padding:0.5rem;
+    animation: specialheader;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+
+}
+
+#header33 {
+    width:100%;
+    padding:0.5rem;
+    position: relative;
+    margin-top:30rem;
+    animation: specialheader;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+}
+
+#horizontalheader {
+    height:30rem;
+    width:1rem;
+    left:0%;
+    position: absolute;
+    animation:specialheader;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+}
+#horizontalheader1 {
+    height:30rem;
+    width:1rem;
+    right:0%;
+    animation:specialheader;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+.topic-name {
+    padding-bottom:0.5rem;
+}
+
+
+@keyframes specialheader {
+    10%{background: rgb(3, 19, 245);}
+    20%{background: rgb(12, 28, 173);}
+    30%{background: rgb(29, 38, 124);}
+    40%{background: rgb(13, 22, 104);}
+    50%{background: rgb(3, 6, 31);}
+    60%{background: rgb(47, 60, 175);}
+    70%{background: rgb(89, 101, 212);}
+    80%{background: rgb(88, 93, 151);}
+    90%{background: rgb(76, 82, 124);}
+    100%{background: rgb(206, 209, 235);}
+
+}
+
+.thecontainer {
+    display:flex;
+    height:30rem;
+    width:100%;
+    position:absolute;
+}
+
+
+#wallpaper {
+    background:rgba(121, 121, 45, 0.3);
+    height:30rem;
+    width:100%;
+    position:absolute;
+    text-align: left;
+    padding-left:3rem; 
+    padding-top:1rem;
+    padding-right:3rem;
+    justify-content: center;
+    overflow:auto;
+}
+
+
+.back {
+    width:12.5%;
+    background:rgb(9, 17, 87);
+}
+
+
+.back-1 {
+    animation:darken;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+
+}
+
+.back-2 {
+    animation:darken;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.back-3 {
+    animation:darken;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+
+.back-4 {
+    animation:darken;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+.back-5 {
+    animation:darken;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.back-6 {
+    animation:darken;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+.back-7 {
+    animation:darken;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+}
+
+.back-8 {
+    animation:darken;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+
+p:hover {
+    background: black;
+}
+@keyframes darken {
+    10%{background: rgb(23, 30, 99);}
+    20%{background: rgb(35, 43, 119);}
+    30%{background: rgb(67, 78, 179);}
+    40%{background: rgb(48, 57, 136);}
+    50%{background: rgb(71, 85, 204);}
+    60%{background: rgb(52, 60, 134);}
+    70%{background: rgb(24, 29, 75);}
+    80%{background: rgb(13, 16, 48);}
+    90%{background: rgb(9, 13, 43);}
+    100%{background: rgb(6, 11, 58);}
+
+}
+
+
+
+.containernew {
+    display:flex;
+}
+
+.flexxx {
+    width:100%;
+    border:solid 1px rgba(122, 122, 112, 0.3);
+    padding:1%;
+    background-color: rgba(44, 44, 37, 0.3);
+    margin-bottom: 1%;
+    margin-top:3%;
+    position:absolute;
+    border-top:1rem;
+}
+
+.flex-6 {
+    text-align: right;
+    border-left: rgba(44, 44, 37, 0.3);
+    border-right:rgba(122, 122, 112, 0.3);
+    width:100%;
+}
+
+.flex-5 {
+    text-align:left;
+    border-right: rgba(44, 44, 37, 0.3);
+    border-left:rgba(44, 44, 37, 0.3);
+    width:100%;
+    float:left;
+}
+
+.wallpara, .h33 {
+    font-size: 1.3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h33 {
+    font-weight: 800;
+}
+
+#hire {
+    float:right;
+    margin-right:2rem;
+    width:30%;
+    margin-left:1rem;
+}
+
+.spacee {
+    height:1rem;
+}
+
+
+/* commentscommentscommentscommentscommentscommentscommentscommentscommentscomments */
+
+
+#lastitle {
+    text-align: center;
+    padding-top:0;
+    padding-bottom:5rem;
+    font-size:3rem;
+    /* https://gifer.com/en/Ozb */
+    color:rgb(27, 112, 128);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width:100%
+}
+
+
+.doughnutking {
+    font-size: 1.2rem;
+}
+
+
+.contact {
+    border-radius: 15rem;
+    margin:0.5rem;
+    padding:1rem 2rem;
+    background-color: rgb(3, 25, 71);
+    font-size: 100%;
+}
+
+.contact:hover {
+    background: rgb(234, 236, 238);
+    cursor: pointer;
+}
+
+.fakebutton {
+    color: rgb(3, 25, 71);
+}
+#lastheader {
+    display:flex;
+    align-items:center;
+    font-weight:bold;
+    justify-content: space-between;
+   
+    background:linear-gradient(45deg, rgb(17, 17, 19), rgb(49, 53, 54),rgb(114, 124, 54), rgb(146, 168, 48), rgb(55, 63, 9));
+    animation: rainbowsauce 12s ease-in-out infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes rainbowsauce {
+    0% {
+        background-position: 0 50%;
+    }    
+    50% {
+        background-position: 100% 50%;
+    }    
+    100% {
+        background-position: 0 50%;
+    }    
+}
+
+#nav-bar {
+    justify-content: left;
+}
+
+#pastehere {
+    background:linear-gradient(45deg, rgb(2, 18, 243), rgb(12, 193, 238),rgb(18, 79, 211), rgb(23, 12, 177), rgb(29, 4, 170));
+    animation: rainbowsauce 12s ease-in-out infinite;
+    background-size: 400% 400%;
+
+}
+
+.box {
+    height:55vh;
+    margin-left:1rem;
+    display:flex;
+
+}
+.thecontainers {
+    display: grid;
+    height:90%;
+    align-content:space-evenly;
+    margin-right:1rem;
+}
+
+
+
+.box-1 {
+    background: rgba(131, 50, 39, 0.4);
+    grid-column:1 / 2;
+    display: block;
+    overflow: auto;
+    overflow-x:hidden;
+}
+
+
+
+
+
+.box-2 {
+    background: rgb(0, 0, 0);
+    grid-column: 2 / 2;
+    display:block;
+    padding:1rem;
+    overflow: auto;
+    overflow-x:hidden;
+}
+
+
+
+
+
+.finaltable {
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:1rem;
+    height: fit-content;
+}
+.finaltable, td {
+    table-layout: fixed;
+    height:3rem;
+}
+
+.finaltable, td, th {
+    border:1px solid rgb(0, 0, 0);
+    font-size: 0.9rem;
+    border-collapse: collapse;
+    width:20rem;
+}
+
+
+.finaltable, .tdd, .thh {
+    border-collapse: collapse;
+    padding:3px;
+    text-align: justify;
+    text-align: center;
+}
+
+
+.finaltable tr:nth-child(1n) {
+    background:rgba(39, 131, 119, 0.4);
+}
+
+.finaltable tr:nth-child(1) {
+    background:rgba(121, 121, 121, 0.4);
+}
+
+.finaltable tr:nth-child(2n) {
+    background:rgba(153, 53, 39, 0.4);
+}
+
+
+#text {
+    margin: 1rem;
+    text-align: center;
+}
+
+#PersonalReflection {
+    font-size:1.5rem;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#TableTitle {
+    display:flex;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.finalltable, td, th {
+    border-collapse: collapse;
+    
+}
+
+
+.finalltable tr:nth-child(1n) {
+    background:rgba(39, 131, 119, 0.4);
+}
+
+.finalltable tr:nth-child(1) {
+    background:rgba(121, 121, 121, 0.4);
+}
+
+.finalltable tr:nth-child(2n) {
+    background:rgba(153, 53, 39, 0.4);
+}
+
+.finallltable {
+    width:110%;
+
+}
+
+.finallltable, td, th {
+    border-collapse: collapse;
+}
+
+.finallltable tr:nth-child(1n) {
+    background:rgba(39, 131, 119, 0.4);
+}
+
+.finallltable tr:nth-child(1) {
+    background:rgba(121, 121, 121, 0.4);
+}
+
+.finallltable tr:nth-child(2n) {
+    background:rgba(153, 53, 39, 0.4);
+}
+
+table, th, .thh {
+    font-size:1.3rem;
+}
+
+.class{
+    background: gray;
+    border: 1px solid red;
+}
+
+.evaluation {
+    height: 2rem;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    word-wrap: break-word;
+    width:110%;
+}
+    
+
+
+.a {
+    background:rgb(2, 255, 44);
+}
+
+.b {
+    background: rgb(255, 230, 8)
+}
+
+.c {
+    background: rgb(230, 140, 140)
+}
+
+.d {
+    background-color: rgb(202, 136, 50);
+}
+#green {
+    background:rgb(2, 255, 44);
+}
+
+
+.thefatBox {
+    height:80px;
+}
+
+.accessibilityTitle {
+    font-size:1.4rem;
+    color:red;
+}
+
+#accesibilityT {
+    font-size: 1rem;
+}
+
+#contrast {
+    width:100%;
+}
+
+#contrastimg {
+    float:left;
+    width:50%;
+    position: relative;
+}
+
+#contrastimgProof {
+    width:50%;
+    float:right;
+}
+
+.divider {
+    border:1px solid rgb(217, 253, 11);
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    color: black;
+    font-size: 0;
+    position: relative;
+}
+.Highlighter {
+    background: yellow;
+    font-size:1.4rem;
+    margin-top:2rem;
+    float:left;
+    color: black;
+}
+.bigbong {
+    margin-bottom: 2rem;
+    max-width:400px;
+    float:right;
+    margin-left:2rem;
+}
+.high {
+    margin-top: 3rem;
+}
+
+.parahara {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    word-wrap: break-word;
+}
+
+.arialabels {
+    font-size: 1.4rem;
+}
+
+.sampleCode {
+    background: rgb(58, 52, 52);
+    
+}
+.sampleCode pre {
+    white-space: pre-wrap;
+  }
+
+.op {
+    background:rgb(199, 199, 120);
+    color:black
+}
+
+.op:hover {
+    background:yellow;
+}
+
+#contrastlink {
+    color:yellow;
+}
+
+#contrastlink:hover {
+    color:rgb(189, 189, 47);
+}
+
+.saas {
+    text-align: left;
+}
+
+.tableandstuff {
+    width:90%;
+}
+
+.thebigOne {
+    word-wrap: break-word;
+}
+
+.half {
+    background-image: linear-gradient(
+        /* rgb(202, 136, 50)0%, */
+        rgb(202, 136, 50)55%,
+        /* rgb(255, 230, 8) 50%, */
+        rgb(255, 230, 8)
+    );
+
+}
+
+.halfish {
+    background-image: linear-gradient(
+        rgb(230, 140, 140),
+        /* rgb(230, 140, 140) 50%, */
+        rgb(202, 136, 50)
+        /* rgb(202, 136, 50)100% */
+    );
+
+}
+
+
+.imageGang {
+    display:grid;
+    justify-content: space-evenly;
+    width:100%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+    row-gap:20px;
+    margin-top:1rem;
+    column-gap: 10px;
+}
+
+.burp {
+    width:100%;
+    height:300px;
+    border:1px solid rgba(255, 230, 1, 0.4);
+    border-width: 10px;
+}
+
+
+.box-3 {
+    background: rgba(255, 0, 0, 0.5);
+    grid-row: 2;
+    grid-column: span 2; 
+    display:inline;
+    padding:1.5rem;
+    height:fit-content;
+    margin-top:1rem;
+    overflow:auto;
+    overflow-x:hidden;
+}
+
+.aesmsg {
+    font-size:1.2rem;
+    word-wrap: break-word;
+}
+
+.titleman {
+    text-align:center;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.titlemann {
+    text-align:center;
+    font-size: 2rem;
+}
+
+.quote {
+    background-color: rgb(25, 0, 255);
+}
+
+.thethe {
+    color:red;
+}
+
+.blueimg {
+    float:right;
+    max-width: 300px;
+    object-fit: cover;
+    border:3px solid rgb(73, 17, 126);
+    margin-left:2.5rem;
+}
+
+#borderpa {
+    max-width: 400px;
+    float:right;
+    margin-left:2rem;
+}
+
+
+
+.fonts {
+    width:20%;
+    border: 10px solid purple;
+
+}
+
+.he {
+    width:500px;
+    min-width:100px;
+    object-fit: cover;
+}
+
